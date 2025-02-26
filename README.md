@@ -79,7 +79,8 @@ Francisca tem dois filhos: João e Maria. Ambos gostam de maçãs.
 - João: Um menino muito exigente que só gostava de maçãs vermelhas, daquelas bemmmm vermelhas (Maçã Argentina). 
 - Maria: Uma menina que gostava de qualquer tipo de maçã (não ligava para o tipo, só para o sabor).
 
-![alt text](==.png)
+![==](https://github.com/user-attachments/assets/3d00595a-559e-49c3-93f4-9fd95997d26d)
+
 
 Um dia, a mãe foi à feira e comprou quatro tipos de maçãs:
 
@@ -88,7 +89,7 @@ Um dia, a mãe foi à feira e comprou quatro tipos de maçãs:
 - Uma maçã Verde (tipo: verde).
 - Uma maçã de crochê (tipo: fio, mas com aparência de maçã vermelha).
 
-![alt text](<== (1).png>)
+![== (1)](https://github.com/user-attachments/assets/412fa459-f4ef-4ce7-980c-bb59bd65a315)
 
 Quando voltou para casa, a mãe decidiu oferecer as maçãs aos filhos.
 
@@ -96,7 +97,7 @@ Primeiro ela tirou a maçã de crochê da sacola e perguntou aos seus filhos que
 
 Maria (não exigente) e João (exigente) olharam para a maçã de crochê e disseram: "Não! Eu não quero essa maçã. Ela não é uma maçã de verdade!"
 
-![alt text](<== (2).png>)
+![== (2)](https://github.com/user-attachments/assets/05a83163-6d53-4b68-a910-3962b007c703)
 
 Depois disso, a mãe ofereceu a maçã Fuji (vermalha-claro) e a maçã verde aos filhos.
 
@@ -104,7 +105,7 @@ João (exigente) olhou para a maçã Fuji, analisou ela, olhou pra cor, o tamanh
 
 Maria (não exigente) olhou para as maçãs e disse: "Eu quero essas maçãs! As duas parecem deliciosas!".
 
-![alt text](<== (3).png>)
+![== (3)](https://github.com/user-attachments/assets/a0df0540-897a-4ac6-8a25-6b5bd85e1519)
 
 Por último, a mãe ofereceu a maçã Argentina (vermelha) aos filhos.
 
@@ -112,7 +113,7 @@ João começou a analisar novamente, cada detalhe dela, e falou: "Sim, essa é a
 
 Maria olhou para a maçã Argentina e disse: "Sim, eu tambem quero essa maçã!".
 
-![alt text](<== (4).png>)
+![== (4)](https://github.com/user-attachments/assets/196c85c2-2a96-472b-b607-526fc1c6235d)
 
 Podemos fazer um parelho entre o João e a Maria com o operador de igualdade `==` e `===`:
 
@@ -136,7 +137,6 @@ if (COMPARAR O numeroTrinta e a stringTrinta) {
 } else {
   console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo')
 }
-
 ```
 
 ```javascript
