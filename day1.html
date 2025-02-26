@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruções para Acessar o Console</title>
+    <!-- Materialize CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-panel teal lighten-2">
+            <h1 class="white-text center-align">Como Acessar o Console do Navegador</h1>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p class="flow-text">Para acessar o console do navegador usando o mouse, siga os passos abaixo:</p>
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Google Chrome</div>
+                        <div class="collapsible-body">
+                            <ol>
+                                <li>Clique no ícone de três pontos (menu) no canto superior direito.</li>
+                                <li>Selecione <strong>"Mais ferramentas"</strong> > <strong>"Ferramentas do desenvolvedor"</strong>.</li>
+                                <li>O console será aberto na parte inferior ou lateral da tela.</li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Mozilla Firefox</div>
+                        <div class="collapsible-body">
+                            <ol>
+                                <li>Clique no ícone de menu (três linhas horizontais) no canto superior direito.</li>
+                                <li>Selecione <strong>"Mais ferramentas"</strong> > <strong>"Ferramentas do desenvolvedor"</strong>.</li>
+                                <li>O console será aberto na parte inferior ou lateral da tela.</li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Safari</div>
+                        <div class="collapsible-body">
+                            <ol>
+                                <li>Primeiro, habilite o menu "Desenvolvedor": vá em <strong>"Safari"</strong> > <strong>"Preferências"</strong> > <strong>"Avançado"</strong> e marque a opção <strong>"Mostrar menu Desenvolvedor na barra de menus"</strong>.</li>
+                                <li>Depois, clique em <strong>"Desenvolvedor"</strong> no menu superior e selecione <strong>"Mostrar Console JavaScript"</strong>.</li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Microsoft Edge</div>
+                        <div class="collapsible-body">
+                            <ol>
+                                <li>Clique no ícone de três pontos (menu) no canto superior direito.</li>
+                                <li>Selecione <strong>"Mais ferramentas"</strong> > <strong>"Ferramentas do desenvolvedor"</strong>.</li>
+                                <li>O console será aberto na parte inferior ou lateral da tela.</li>
+                            </ol>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+         <!-- Botão de Voltar -->
+         <div class="row left-align-btn">
+            <div class="col s12">
+                <a href="index.html" class="waves-effect waves-light btn teal">
+                    <i class="material-icons left">arrow_back</i>Voltar
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // Inicializa o componente de colapsão
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(elems);
+        });
+    </script>
+    <script src="scriptDay1.js"></script>
+</body>
+</html>

@@ -3,74 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instruções para Acessar o Console</title>
+    <title>7-Days-Of-Code</title>
     <!-- Materialize CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="card-panel teal lighten-2">
-            <h1 class="white-text center-align">Como Acessar o Console do Navegador</h1>
+        <!-- Ícone do Projeto -->
+        <div class="center-align">
+            <i class="material-icons large teal-text">code</i>
         </div>
-        <div class="card">
-            <div class="card-content">
-                <p class="flow-text">Para acessar o console do navegador usando o mouse, siga os passos abaixo:</p>
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Google Chrome</div>
-                        <div class="collapsible-body">
-                            <ol>
-                                <li>Clique no ícone de três pontos (menu) no canto superior direito.</li>
-                                <li>Selecione <strong>"Mais ferramentas"</strong> > <strong>"Ferramentas do desenvolvedor"</strong>.</li>
-                                <li>O console será aberto na parte inferior ou lateral da tela.</li>
-                            </ol>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Mozilla Firefox</div>
-                        <div class="collapsible-body">
-                            <ol>
-                                <li>Clique no ícone de menu (três linhas horizontais) no canto superior direito.</li>
-                                <li>Selecione <strong>"Mais ferramentas"</strong> > <strong>"Ferramentas do desenvolvedor"</strong>.</li>
-                                <li>O console será aberto na parte inferior ou lateral da tela.</li>
-                            </ol>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Safari</div>
-                        <div class="collapsible-body">
-                            <ol>
-                                <li>Primeiro, habilite o menu "Desenvolvedor": vá em <strong>"Safari"</strong> > <strong>"Preferências"</strong> > <strong>"Avançado"</strong> e marque a opção <strong>"Mostrar menu Desenvolvedor na barra de menus"</strong>.</li>
-                                <li>Depois, clique em <strong>"Desenvolvedor"</strong> no menu superior e selecione <strong>"Mostrar Console JavaScript"</strong>.</li>
-                            </ol>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">desktop_windows</i>Microsoft Edge</div>
-                        <div class="collapsible-body">
-                            <ol>
-                                <li>Clique no ícone de três pontos (menu) no canto superior direito.</li>
-                                <li>Selecione <strong>"Mais ferramentas"</strong> > <strong>"Ferramentas do desenvolvedor"</strong>.</li>
-                                <li>O console será aberto na parte inferior ou lateral da tela.</li>
-                            </ol>
-                        </div>
-                    </li>
-                </ul>
+
+        <!-- Título -->
+        <h1 class="center-align teal-text">7-Days-Of-Code</h1>
+
+        <!-- Explicação do Projeto -->
+        <div class="card-panel teal lighten-5">
+            <p class="flow-text">
+                Página dedicado aos desafios diários da campanha #7daysofcode, uma iniciativa da <span class="destaque">Alura</span> em parceria com o <span class="destaque">ONE (Oracle Next Education)</span>. Aqui você encontrará soluções, códigos e materiais relacionados aos desafios práticos propostos, que abrangem desde estruturas de controle de fluxo até funções e manipulação de dados.
+            </p>
+        </div>
+
+        <!-- Botões dos Dias -->
+        <div class="row center-align">
+            <div class="col s12">
+                <a href="day1.html" class="waves-effect waves-light btn-large teal">Day 1</a>
+                <a href="day2.html" class="waves-effect waves-light btn-large teal">Day 2</a>
+                <a href="day3.html" class="waves-effect waves-light btn-large teal">Day 3</a>
+                <a href="day4.html" class="waves-effect waves-light btn-large teal">Day 4</a>
+                <a href="day5.html" class="waves-effect waves-light btn-large teal">Day 5</a>
+                <a href="day6.html" class="waves-effect waves-light btn-large teal">Day 6</a>
+                <a href="day7.html" class="waves-effect waves-light btn-large teal">Day 7</a>
             </div>
         </div>
     </div>
 
     <!-- Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        // Inicializa o componente de colapsão
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.collapsible');
-            var instances = M.Collapsible.init(elems);
-        });
-    </script>
-    <script src="script.js"></script>
 </body>
 </html>

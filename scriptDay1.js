@@ -23,8 +23,10 @@ if ( (numeroDez == stringDez) && !(numeroDez === stringDez) ) {
   console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
 }
 
-if (typeof numeroUm === typeof numeroTrinta){
+if ( (typeof numeroUm === typeof numeroTrinta) && (numeroUm != numeroTrinta) ){
     console.log('As variáveis numeroUm e numeroTrinta tem o mesmo tipo, mas valores diferentes')
-}else{
-    console.log('As variáveis numeroUm e numeroTrinta tem o mesmo tipo, mas valores diferentes')
+} else if ( (typeof numeroUm === typeof numeroTrinta) && (numeroUm == numeroTrinta) ){
+    console.log('As variáveis numeroUm e numeroTrinta tem o mesmo tipo, mas valores iguais')
+} else {
+  console.log('As variáveis numeroUm e numeroTrinta não tem o mesmo tipo, nem mesmo valor')
 }
