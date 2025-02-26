@@ -27,7 +27,7 @@ h1 {
 
 .btn-large {
     margin: 10px;
-    width: 150px;
+    width: 300px;
 }
 
 .row {
@@ -45,3 +45,7 @@ h1 {
     color: #009688;
     text-shadow: #015f56;
 } 
+
+.github{
+    color: #80FFF2;
+}

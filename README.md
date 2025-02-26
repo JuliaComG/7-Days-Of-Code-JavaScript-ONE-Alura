@@ -245,7 +245,7 @@ if ( (typeof numeroUm === typeof numeroTrinta) && (numeroUm != numeroTrinta) ){
 
 # Day 2
 
-Data: /02/2025
+Data: 26/02/2025
 
 ## Problema
 
@@ -292,6 +292,34 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 ```
 
 ## Solução
+
+```mermaid
+flowchart TD
+    A[DOMContentLoaded] --> B[Define perguntas]
+    B --> C[Inicializa variáveis]
+    C --> D[Mostra próxima pergunta]
+
+    D --> E{Existem mais perguntas?}
+
+    E -- Sim --> F[Exibe pergunta atual]
+    F --> G[Aguarda entrada do usuário]
+    G --> H[Valida entrada]
+    H -- Inválida --> I[Exibe mensagem de erro]
+    H -- Válida --> J[Armazena resposta]
+    J --> K[Incrementa índice da pergunta]
+    K --> D
+
+    E -- Não --> P[Exibe pergunta final]
+    P --> Q[Aguarda entrada do usuário]
+    Q --> R[Valida entrada]
+
+    R -- Inválida --> L[Exibe mensagem de erro]
+
+    R -- Válida --> S[Armazena resposta]
+
+    S --> T[Exibe mensagem final com base na resposta]
+    T --> N[Exibe botão de voltar]
+```
 
 # Day 3
 
