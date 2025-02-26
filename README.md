@@ -12,7 +12,7 @@ Repositório dedicado aos desafios diários da campanha #7daysofcode, uma inicia
 - HTML5: Estruturação da página web.
 - CSS3: Estilização e design responsivo.
 - JavaScript: Lógica de programação e interatividade.
-- Material Design 3: Sistema de design open source do Google, que oferece diretrizes, estilos e componentes para criar interfaces amigáveis.
+- Material Design 3: Framework. Sistema de design open source do Google, que oferece diretrizes, estilos e componentes para criar interfaces amigáveis.
 
 # Day 1
 
@@ -304,6 +304,46 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 ```
 
 ## Solução
+
+### Estrutura HTML
+
+Criei um formulário HTML com um campo de entrada para o usuário digitar suas respostas. E as perguntas serão injetadas no HTML usando JavaScript.
+
+Utilizei a biblioteca Materialize para estilizar todos os elementos.
+
+Adicionei um botão "Voltar" que aparece após o término das perguntas, que irá reportar pra página inicial do desafio.
+
+### Lógica de Programação
+
+- Defini um array com as perguntas a serem feitas ao usuário, e outra array com as respostas esperadas para cada pergunta.
+
+```javascript
+const questions = [
+    "Qual o seu nome?",
+    "Quantos anos você tem?",
+    "Qual linguagem de programação você está estudando?"
+];
+
+const answers = [];
+```
+
+- A função `showNextQuestion` exibe a próxima pergunta ao usuário e atualiza a interface conforme necessário.
+
+- Implementei validações para garantir que as respostas sejam válidas:
+
+  - Nome: Apenas letras e espaços são permitidos.
+  - Idade: Apenas números são permitidos.
+  - Resposta final: Apenas "1" (Sim) ou "2" (Não) são permitidos.
+
+E após todas as perguntas serem respondidas, exibi uma mensagem personalizada com as informações coletadas:
+
+```javascript
+questionContainer.textContent = `Olá ${name}, você tem ${age} anos e já está aprendendo ${language}! Você está gostando de aprender ${language}?`;
+```
+
+- Dependendo da resposta final do usuário (Sim ou Não), exibi uma mensagem de encorajamento ou sugestão para tentar outras linguagens.
+
+Para uma melhor visualização do fluxo do projeto, obseve o diagrama de fluxo abaixo:
 
 ```mermaid
 flowchart TD
