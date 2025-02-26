@@ -1,4 +1,4 @@
-﻿
+﻿![7 dias](https://github.com/user-attachments/assets/5a30c1da-76db-4eb3-9620-de02f64e531b)
 
 Repositório dedicado aos desafios diários da campanha #7daysofcode, uma iniciativa da Alura em parceria com o ONE (Oracle Next Education). Aqui você encontrará soluções, códigos e materiais relacionados aos desafios práticos propostos, que abrangem desde estruturas de controle de fluxo até funções e manipulação de dados.
 
