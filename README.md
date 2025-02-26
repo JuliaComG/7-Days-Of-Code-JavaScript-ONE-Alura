@@ -1,14 +1,24 @@
-﻿# 7-Days-Of-Code-JavaScript-ONE-Alura
+﻿
 
 Repositório dedicado aos desafios diários da campanha #7daysofcode, uma iniciativa da Alura em parceria com o ONE (Oracle Next Education). Aqui você encontrará soluções, códigos e materiais relacionados aos desafios práticos propostos, que abrangem desde estruturas de controle de fluxo até funções e manipulação de dados.
 
 ![alt text](unnamed.png)
 
+#7DaysOfCode #JavaScript #ONE #Alura #Oracle
+
 # 🚧 EM CONSTRUÇÃO 🏗️
+
+# Tecnologias Utilizadas
+- HTML5: Estruturação da página web.
+- CSS3: Estilização e design responsivo.
+- JavaScript: Lógica de programação e interatividade.
+- Material Design 3: Sistema de design open source do Google, que oferece diretrizes, estilos e componentes para criar interfaces amigáveis.
 
 # Day 1
 
 Data: 25/02/2025
+
+[🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day1.html)
 
 ## Problema 
 
@@ -247,6 +257,8 @@ if ( (typeof numeroUm === typeof numeroTrinta) && (numeroUm != numeroTrinta) ){
 
 Data: 26/02/2025
 
+[🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day2.html)
+
 ## Problema
 
 Neste desafio, você vai desenvolver um programa simples que simula a experiência de um site ou aplicativo ao receber um novo usuário. O objetivo é capturar informações pessoais do usuário e exibir uma mensagem de boas-vindas personalizada.
@@ -325,6 +337,8 @@ flowchart TD
 
 Data: /02/2025
 
+[🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day3.html)
+
 ## Problema
 
 ## Tarefa
@@ -334,6 +348,8 @@ Data: /02/2025
 # Day 4
 
 Data: /02/2025
+
+[🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day4.html)
 
 ## Problema
 
@@ -345,6 +361,8 @@ Data: /02/2025
 
 Data: /02/2025
 
+[🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day5.html)
+
 ## Problema
 
 ## Tarefa
@@ -355,6 +373,8 @@ Data: /02/2025
 
 Data: /02/2025
 
+[🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day6.html)
+
 ## Problema
 
 ## Tarefa
@@ -364,6 +384,8 @@ Data: /02/2025
 # Day 7
 
 Data: /02/2025
+
+[🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day7.html)
 
 ## Problema
 
