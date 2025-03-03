@@ -1,6 +1,21 @@
 ﻿![7 dias](https://github.com/user-attachments/assets/5a30c1da-76db-4eb3-9620-de02f64e531b)
 
+<p align="center">
+  <a href="https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/">🌍 Acesse o Hub aqui</a>
+</p>
+
+
 Repositório dedicado aos desafios diários da campanha #7daysofcode, uma iniciativa da Alura em parceria com o ONE (Oracle Next Education). Aqui você encontrará soluções, códigos e materiais relacionados aos desafios práticos propostos, que abrangem desde estruturas de controle de fluxo até funções e manipulação de dados.
+
+<p align="center">
+  <a href="#day-1">Dia 1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#day-2">Dia 2</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#day-3">Dia 3</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#day-4">Dia 4</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#day-5">Dia 5</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#day-6">Dia 6</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#day-7">Dia 7</a>
+</p>
 
 ![alt text](unnamed.png)
 
@@ -343,6 +358,8 @@ questionContainer.textContent = `Olá ${name}, você tem ${age} anos e já está
 
 Para uma melhor visualização do fluxo do projeto, obseve o diagrama de fluxo abaixo:
 
+### Diagrama
+
 ```mermaid
 flowchart TD
     A[DOMContentLoaded] --> B[Define perguntas]
@@ -422,6 +439,8 @@ Criar um jogo de escolhas em JavaScript que simula a trajetória de um desenvolv
 
 - Após todas as perguntas serem respondidas, o formulário exibe um resumo das escolhas do usuário, incluindo a área escolhida (Front-end ou Back-end), a especialização (React, Vue, C#, Java, etc.) e as tecnologias que deseja aprender.
 
+### Diagrama
+
 ```mermaid
 flowchart TD
     A[Início] --> B[Pergunta 1: Front-end ou Back-end?]
@@ -480,6 +499,8 @@ O problema abordado por este projeto é a criação de um jogo interativo onde o
 6. **Interface HTML**:
    - A interface HTML é simples, com um título, um parágrafo para feedback, um campo de input para o palpite, e botões para "Chutar" e "Novo jogo".
    - A interface também inclui um toggle para ativar ou desativar as dicas.
+
+### Diagrama
 
 ```mermaid
 flowchart TD
@@ -584,6 +605,8 @@ A solução implementada para resolver o problema de organização da lista de c
        sorvete (Congelados)
      ```
 
+### Diagrama
+
 ```mermaid
 flowchart TD
     A[Início] --> B[Inicializar campos de texto com Material Design]
@@ -639,6 +662,8 @@ Ao criar uma lista de compras, é comum que o usuário precise ajustá-la, remov
 
 3. **Interface do Usuário**:
    - A lista de compras é dinamicamente atualizada no DOM conforme itens são adicionados ou removidos.
+
+### Diagrama
 
 ```mermaid
 flowchart TD
@@ -724,6 +749,8 @@ Ao desenvolver programas, é comum que o código se torne confuso e difícil de 
 4. **Modularidade**:
    - O código foi organizado de forma modular, com a lógica de cálculo separada em uma função (`calculate`), o que facilita a manutenção e a adição de novas operações no futuro.
    - A interação com o usuário é feita através da interface gráfica, sem a necessidade de menus de texto ou prompts, tornando a experiência mais intuitiva.
+
+### Diagrama
 
 ```mermaid
 flowchart TD
