@@ -375,19 +375,32 @@ flowchart TD
 
 # Day 3
 
-Data: /02/2025
+Data: 27/02/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day3.html)
 
 ## Problema
 
+Criar um jogo de escolhas em JavaScript que simula a trajetória de um desenvolvedor, onde o usuário faz escolhas que determinam seu caminho na área de programação. 
+
 ## Tarefa
+
+1. Perguntar ao usuário se ele quer seguir para Front-End ou Back-End.
+
+1.1 Se a escolha for Front-End, use prompt para perguntar se ele quer aprender React ou Vue.
+1.2 Se a escolha for Back-End, use prompt para perguntar se ele quer aprender C# ou Java.
+
+2. Independente da escolha anterior, o usuário deve decidir se quer se especializar na área escolhida ou se tornar Fullstack.
+
+3. Por fim, o usuário deve poder listar quantas tecnologias quiser para aprender, com a possibilidade de adicionar várias tecnologias uma por uma, enquanto responder "sim" à pergunta se deseja adicionar mais.
 
 ## Solução
 
+
+
 # Day 4
 
-Data: /02/2025
+Data: 28/02/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day4.html)
 
@@ -399,7 +412,7 @@ Data: /02/2025
 
 # Day 5
 
-Data: /02/2025
+Data: 01/03/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day5.html)
 

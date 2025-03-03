@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="row left-align-btn">
+        <div class="col s12">
+            <a href="../index.html" class="waves-effect waves-light btn teal">
+                <i class="material-icons left">arrow_back</i>Voltar
+            </a>
+        </div>
+    </div>
+
+    <h1>Lista de Compras</h1>
+
+    <!-- Formulário para adicionar itens -->
+    <div class="mdc-text-field mdc-text-field--outlined">
+        <input type="text" id="item-name" class="mdc-text-field__input" placeholder="Nome do item">
+        <div class="mdc-notched-outline">
+            <div class="mdc-notched-outline__leading"></div>
+            <div class="mdc-notched-outline__notch">
+                <label for="item-name" class="mdc-floating-label">Nome do item</label>
+            </div>
+            <div class="mdc-notched-outline__trailing"></div>
+        </div>
+    </div>
+
+    <div class="mdc-text-field mdc-text-field--outlined">
+        <input type="text" id="item-category" class="mdc-text-field__input" placeholder="Categoria">
+        <div class="mdc-notched-outline">
+            <div class="mdc-notched-outline__leading"></div>
+            <div class="mdc-notched-outline__notch">
+                <label for="item-category" class="mdc-floating-label">Categoria</label>
+            </div>
+            <div class="mdc-notched-outline__trailing"></div>
+        </div>
+    </div>
+
+    <button id="add-item" class="mdc-button mdc-button--raised">
+        <span class="mdc-button__label">Adicionar Item</span>
+    </button>
+
+    <!-- Lista de itens -->
+    <div class="shopping-list" id="shopping-list">
+        <!-- Itens serão adicionados aqui dinamicamente -->
+    </div>
+
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="./scriptDay6.js" defer></script>
+</body>
+</html>
