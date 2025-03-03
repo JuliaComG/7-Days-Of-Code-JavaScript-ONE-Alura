@@ -272,6 +272,12 @@ Data: 26/02/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day2.html)
 
+
+
+https://github.com/user-attachments/assets/2c8fcff5-25f3-49a8-b06f-22ac952fe3f1
+
+
+
 ## Problema
 
 Neste desafio, você vai desenvolver um programa simples que simula a experiência de um site ou aplicativo ao receber um novo usuário. O objetivo é capturar informações pessoais do usuário e exibir uma mensagem de boas-vindas personalizada.
@@ -394,6 +400,12 @@ Data: 27/02/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day3.html)
 
+
+
+https://github.com/user-attachments/assets/e3ba0f1f-744c-4756-a54e-a42c1b68fb8c
+
+
+
 ## Problema
 
 Criar um jogo de escolhas em JavaScript que simula a trajetória de um desenvolvedor, onde o usuário faz escolhas que determinam seu caminho na área de programação. 
@@ -459,6 +471,12 @@ flowchart TD
 Data: 28/02/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day4.html)
+
+
+
+https://github.com/user-attachments/assets/efa6ec63-5708-4ae7-92b9-fa4d7cff3e0e
+
+
 
 ## Problema
 
@@ -536,6 +554,12 @@ flowchart TD
 Data: 01/03/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day5.html)
+
+
+
+https://github.com/user-attachments/assets/e9518204-991e-4ac9-aa3c-3a9eba37beca
+
+
 
 ## Problema
 
@@ -634,6 +658,12 @@ Data: 02/03/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day6.html)
 
+
+
+https://github.com/user-attachments/assets/3e5416f6-9cbc-4277-8ed0-9997710f6e63
+
+
+
 ## Problema
 
 Ao criar uma lista de compras, é comum que o usuário precise ajustá-la, removendo itens que já foram comprados ou que não são mais necessários. No entanto, muitos programas básicos de lista de compras não oferecem essa funcionalidade, limitando a utilidade da lista. Este projeto busca resolver esse problema, permitindo que o usuário adicione e remova itens da lista de forma intuitiva.
@@ -693,6 +723,12 @@ flowchart TD
 Data: 03/03/2025
 
 [🌍 Acesse o resultado](https://juliacomg.github.io/7-Days-Of-Code-JavaScript-ONE-Alura/day7.html)
+
+
+
+https://github.com/user-attachments/assets/8fd2a576-656c-4801-9b0e-f5b860418823
+
+
 
 ## Problema
 
