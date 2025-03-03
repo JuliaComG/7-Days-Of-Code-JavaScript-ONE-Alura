@@ -488,21 +488,21 @@ flowchart TD
     C --> D[Aguardar palpite do usuário]
     D --> E{Palpite correto?}
     E -- Sim --> F[Exibir mensagem de acerto]
-    F --> G[Habilitar botão "Novo jogo"]
-    G --> H[Desabilitar botão "Chutar"]
+    F --> G[Habilitar botão Novo jogo]
+    G --> H[Desabilitar botão Chutar]
     H --> I[Fim]
     E -- Não --> J[Incrementar número de tentativas]
     J --> K{Opção de dicas ativada?}
     K -- Sim --> L[Calcular distância entre palpite e número secreto]
     L --> M{Distância > 20?}
-    M -- Sim --> N[Exibir feedback "Frio" (Azul)]
+    M -- Sim --> N[Exibir feedback Azul]
     M -- Não --> O{Distância > 10?}
-    O -- Sim --> P[Exibir feedback "Morno" (Laranja)]
-    O -- Não --> Q[Exibir feedback "Quente" (Vermelho)]
+    O -- Sim --> P[Exibir feedback Laranja]
+    O -- Não --> Q[Exibir feedback Vermelho]
     K -- Não --> R[Exibir feedback padrão]
     R --> S{Palpite maior que número secreto?}
-    S -- Sim --> T[Exibir "Número secreto é menor"]
-    S -- Não --> U[Exibir "Número secreto é maior"]
+    S -- Sim --> T[Exibir Número secreto é menor]
+    S -- Não --> U[Exibir Número secreto é maior]
     T --> D
     U --> D
     Q --> D
@@ -748,7 +748,7 @@ flowchart TD
     Q --> R[Atualiza display]
     R --> E
     N -->|Não| E
-    M -->|Não| S{Valor é operador? (+, -, *, /)}
+    M -->|Não| S{Valor é operador? +, -, *, /}
     S -->|Sim| T{currentInput não está vazio?}
     T -->|Sim| U[Armazena currentInput em previousInput]
     U --> V[Limpa currentInput]
